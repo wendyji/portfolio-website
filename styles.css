@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white; /* Default color is white */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header ul li a:hover {
+    color: #ccc; /* Changes to light grey on hover */
+}
+
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Query for Tablets and Small Screens */
+@media screen and (max-width: 768px) {
+    header ul li {
+        display: block; /* Stack the nav links vertically */
+        margin: 10px 0; /* Add space between items */
+    }
+
+    header ul li a {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    section {
+        padding: 15px;
+        margin: 15px;
+    }
+}
+
+/* Media Query for Mobile Phones */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px; /* Make the header smaller on mobile */
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    header ul li a {
+        font-size: 14px;
+    }
+}
